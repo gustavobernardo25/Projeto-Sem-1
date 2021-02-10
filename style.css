@@ -1,0 +1,117 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;}
+
+    #main{
+        background-image: url('https://cdn.wallpapersafari.com/17/76/GX2BpS.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #title{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 5em;  
+        color: rgb(206, 19, 19); 
+        text-shadow: 0px 2px black, 0px -2px 6px black ;
+        background-image: url('https://wallpaperaccess.com/full/3563968.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 10px;
+        box-shadow: inset 0px 2px 6px black, inset 1px 2px 100px rgba(255, 217, 0, 0.315), 0px 2px 6px black;
+    }
+    img{
+        border-radius: 50%;
+        width: 100%;
+        box-shadow: inset 0px 2px 6px black, inset 1px 2px 100px rgba(255, 217, 0, 0.315), 0px 2px 6px black;;
+    }
+
+    #img-div{
+        
+        margin: auto;
+        background-color: rgba(0,0,0,0.2);
+        padding: 25px;
+        text-align: center;
+        width: 50%;
+        margin-bottom: 10px;
+        border: 1px solid black;
+      
+        
+
+    }
+
+    .desc{
+        margin: auto;
+        width: 60%;
+        background-color: rgba(0,0,0,0.2);
+        color: yellow;
+        text-shadow: 0px 1px 2px black;
+        text-align: justify;
+        padding: 25px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        border: 1px solid black;
+    
+    }
+
+    .linha{
+        font-size: 1.1em;
+        padding: 25px;
+        margin: auto;
+        width: 60%;
+        background-color: rgba(0,0,0,0.2);
+        color: yellow;
+        text-shadow: 0px 1px 2px black;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        border: 1px solid black;
+    
+    }
+    a{
+        text-decoration: none;
+        align-items: center;
+        color: black;
+        font-size: 1.5em;
+        text-shadow: 0px 2px 6px gold, 0px -2px 6px gold;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    
+    
+    .navbardiv{
+        margin-left: 410px;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;}
+
+
+        .Galeria{
+            background-color: rgba(0,0,0,0.2);
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 25px;
+            width: 60%;
+            border: 1px solid black;
+            box-shadow: inset 0px 2px 6px red, inset 1px 2px 100px rgba(255, 217, 0, 0.315), 0px 2px 6px black;
+        }
+        
+        .Imagens{
+            width: 32%;
+            margin: 3px;
+            border-radius: 0px;
+            border: 1px solid gold;
+            box-shadow: 0px 2px 6px black, 0px 1px 10px gold;
+        }
+        
+        .galimg{
+            width: 32%;
+            margin: 3px;
+            border-radius: 0px;
+            border: 1px solid gold;
+            box-shadow: 0px 2px 6px black, 0px 1px 10px gold;
+        }
